@@ -1,0 +1,104 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 120px;
+    padding: 0;
+}
+
+.first-content, .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.main h1 {
+    text-align: center;
+    font-size: 4rem;
+    /* margin-top: 30px; */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    margin: 30px;
+}
+form button {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+form button:hover {
+    background-color: rgb(170, 169, 169);
+}
+form > input {
+    border: 2px solid rgba(128, 128, 128, 0.404);
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+.time {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.date {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.city {
+    font-size: 2.2rem;
+    margin: 0;
+}
+.weather {
+    font-size: 1.8rem;
+}
+
+.cont {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.last-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp > .first-head {
+    font-size: 1.6rem;
+}
+.wind > .first-head {
+    font-size: 1.6rem;
+}
+.visibility > .first-head {
+    font-size: 1.6rem;
+}
+.pressure > .first-head {
+    font-size: 1.6rem;
+}
+
